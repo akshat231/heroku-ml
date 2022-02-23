@@ -14,8 +14,6 @@ st.write("This is a simple image classification web app to predict COVID, Pneumo
 file = st.file_uploader("Please upload an image file", type=["jpg", "png"])
 import cv2
 from PIL import Image, ImageOps
-import keras_ocr
-from keras_ocr import tools
 import numpy as np
 def findout(pred):
     return pred
